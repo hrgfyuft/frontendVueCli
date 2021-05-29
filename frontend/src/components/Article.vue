@@ -5,7 +5,7 @@
         <div id="articleHead">
 
       <span id="title">主题:</span>
-      <input id="titleInput" placeholder="#请输入主题#"/>
+      <input id="titleInput" placeholder="             #      请输入主题        #"/>
         </div>
     </div>
   </div>
