@@ -1,6 +1,6 @@
 <template>
 <div>
-  <img alt="Vue logo" src="./assets/logo.png">
+  <img alt="logo" id="logo" src="./assets/logo_new.png">
   <Article />
 </div>
 </template>
@@ -24,5 +24,10 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+
+#logo{
+  width: 400px;
+  height: 400px;
 }
 </style>
