@@ -1,9 +1,7 @@
 <template>
-  <div>
-    <h1>测试</h1>
+  <div id="articleContent">
     <div id="article">
         <div id="articleHead">
-
       <span id="title">主题:</span>
       <input id="titleInput" placeholder="#      请输入主题        #"/>
         </div>
@@ -18,6 +16,10 @@ export default {
 </script>
 
 <style>
+#articleContent{
+  margin-top: 400px;
+}
+
 input {
     border-radius: 0;
     border-width: 1px;

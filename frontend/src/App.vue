@@ -1,16 +1,23 @@
 <template>
 <div>
-  <img alt="logo" id="logo" src="./assets/logo400.png">
+
+  <Header />
+  <Navi />
   <Article />
+
 </div>
 </template>
 
 <script>
 import Article from './components/Article.vue'
+import Header from './components/Header.vue'
+import Navi from './components/Navi.vue'
 
-export default { 
+export default {
   name: 'App',
   components: {
+    Navi,
+    Header,
   Article
   }
 }
@@ -21,13 +28,14 @@ export default {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
 }
 
-#logo{
-  width: 400px;
-  height: 400px;
+.logoNavi{
+  height: 100px;
+}
+
+#logoText {
+  width: 200px;
 }
 </style>
