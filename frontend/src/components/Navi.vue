@@ -29,6 +29,8 @@ export default ({
     }
 
     li {
+        text-align: center;
+        
         display:block;
         float: left;
         margin-left: 0px;
